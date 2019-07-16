@@ -11,16 +11,16 @@
 </head>
 <body>
     <!-- Game start -->
-    <div id = start>
+    <div id = start_container>
         <h1 class = "logo">Teenage Mutant Ninja Turtles Trivia</h1>
         <button id = start_button>Start</button>
     </div>    
 
     <!-- Actual Game -->
-<div id = play>
+<div id = mid_game_container>
     <h1 class = "logo">Teenage Mutant Ninja Turtles Trivia</h1>
     <!-- timer -->
-    <h1 id = "timer"> Time Left: <span id = "timer_number"> 60 Seconds</span></h1>
+    <h1 id = "timer_line"> Time Left: <span id = "timer_number"> 60 Seconds</span></h1>
 
     <!-- Questions -->
     <h1>1. When was the first appearance of the Ninja Turtles? </h1>
@@ -96,25 +96,23 @@
 
                                             <br>
 
-                                            <button id = done> Done!</button>
+                                            <button id = done_button> Done!</button>
 
 
 </div>
 
+<!-- game over -->
+<div id = end_container>
+<h1 class = "logo">Teenage Mutant Ninja Turtles Trivia</h1>
+<h1 id = "done">Finished!!</h1>
+<br>
+
+<h1>Correct Answers: <spann id = "correct_answers">0</span></h1>
+    <h1>Incorrect Answers: <spann id = "wrong_answers">0</span></h1>
+        <h1>Unanswered: <spann id = "unanswered">0</span></h1>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
