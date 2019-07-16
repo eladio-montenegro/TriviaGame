@@ -1,5 +1,53 @@
 body {
     background-image: url("../images/tmnt-wallpaper.jpg");
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* margin-left: 100px;
+    margin-right: 100px; */
 
 }
+
+.logo {
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+#start_container {
+margin: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 48px;
+background-color: green;
+width: 50%;
+text-align: center;
+border-radius: 10px;
+
+}
+
+#mid_game_container {
+    margin: 50px;
+    padding-top: 20px;
+padding-bottom: 20px;
+font-size: 16px;
+background-color: green;
+width: 50%;
+text-align: center;
+border-radius: 10px;
+}
+
+#end_container {
+    margin: 50px;
+    padding-top: 20px;
+padding-bottom: 20px;
+font-size: 16px;
+background-color: green;
+width: 50%;
+text-align: center;
+border-radius: 10px;
+
+}
+
+/* h1 {
+    font-size: 24px; */
