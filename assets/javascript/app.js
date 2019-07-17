@@ -1,7 +1,7 @@
 
 
 //variables
-var count = 60;
+var count = 90;
 var correctCount = 0;
 var wrongCount = 0;
 var unansweredCount = 0;
